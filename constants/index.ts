@@ -112,3 +112,21 @@ export const productList: ProductCardType[] = [
     title: "Sunglasses",
   },
 ];
+
+export const storeList: StoreCardType[] = [
+  {
+    name: "Raja Opticals",
+    location: "Putalisadak, kathmandu",
+    contact: "9865410898",
+  },
+  {
+    name: "Shree Optical",
+    location: "Prithvi Chowk, pokhara",
+    contact: "9865410890",
+  },
+  {
+    name: "M.H. Opticals",
+    location: "School Road, Hetauda",
+    contact: "9865410898",
+  },
+];

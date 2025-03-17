@@ -1,29 +1,13 @@
 import React from "react";
 import Store from "../shared/Store";
+import { storeList } from "@/constants";
 
 const NearBy = () => {
-  const storeList: StoreCardType[] = [
-    {
-      name: "Raja Opticals",
-      location: "Putalisadak, kathmandu",
-      contact: "9865410898",
-    },
-    {
-      name: "Shree Optical",
-      location: "Prithvi Chowk, pokhara",
-      contact: "9865410890",
-    },
-    {
-      name: "M.H. Opticals",
-      location: "School Road, Hetauda",
-      contact: "9865410898",
-    },
-  ];
   return (
     <div className="flex flex-col gap-5 py-8 sm:py-14 px-4 sm:px-8 md:px-12 lg:px-20 bg-gray-100">
       {/* titles */}
       <div className="flex flex-col gap-2 items-center justify-center">
-        <h2 className="text-4xl font-semibold">Find</h2>
+        <h2 className="text-2xl sm:text-4xl font-semibold">Find</h2>
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-semibold">
           Outlet <span className="font-extrabold textBg w-fit">NEAR YOU</span>
         </h1>
