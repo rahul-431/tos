@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 import { FaFacebookF, FaInstagram, FaLocationDot } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
