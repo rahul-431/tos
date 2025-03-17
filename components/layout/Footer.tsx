@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="flex flex-col gap-6 items-center">
         <div className="md:w-[250px] md:h-[250px] w-full h-80">
           <Image
-            src="/qr.png"
+            src="/qr1.png"
             alt="Scan Me"
             height={0}
             width={0}

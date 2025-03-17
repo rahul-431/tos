@@ -9,3 +9,9 @@ type ProductCardType = {
   title: string;
   id: number;
 };
+
+type StoreCardType = {
+  name: string;
+  location: string;
+  contact: string;
+};
