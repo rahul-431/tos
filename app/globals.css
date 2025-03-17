@@ -61,6 +61,16 @@
     rgba(3, 87, 164, 1) 83%
   );
 }
+.textBg {
+  background: rgb(2, 33, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 33, 62, 1) 21%,
+    rgba(7, 132, 246, 1) 83%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 :root {
   --radius: 0.625rem;
