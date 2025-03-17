@@ -9,26 +9,9 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { FaBarsStaggered } from "react-icons/fa6";
+import { navList } from "@/constants";
 
 const Navbar = () => {
-  const navList = [
-    {
-      label: "About Us",
-      href: "#about",
-    },
-    {
-      label: "Features",
-      href: "#features",
-    },
-    {
-      label: "Products",
-      href: "#products",
-    },
-    {
-      label: "Connect",
-      href: "#connect",
-    },
-  ];
   return (
     <div className="flex justify-between items-center px-4 sm:px-8 md:px-12 lg:px-20 bg-white">
       <Link className="w-16 h-16 sm:w-20 sm:h-20 " href="/">
