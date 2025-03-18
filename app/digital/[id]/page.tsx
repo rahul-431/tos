@@ -2,7 +2,7 @@
 import { useParams, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const { id } = useParams();
   const navigate = useRouter();
   const image = "https://magnuslens.com/images/PDF%2008.png";
@@ -44,4 +44,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

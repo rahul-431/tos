@@ -11,7 +11,7 @@ import { HeroData } from "@/constants";
 import { useRouter } from "next/navigation";
 import Autoplay from "embla-carousel-autoplay";
 
-const page = () => {
+const Page = () => {
   const plugin = useRef(Autoplay({ delay: 3000 }));
   const navigate = useRouter();
   return (
@@ -52,4 +52,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
