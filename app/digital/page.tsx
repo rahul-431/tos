@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 import Autoplay from "embla-carousel-autoplay";
 
 const page = () => {
-  const plugin = React.useRef(Autoplay({ delay: 3000 }));
+  const plugin = useRef(Autoplay({ delay: 3000 }));
   const navigate = useRouter();
   return (
     <div className="flex flex-col gap-2 px-4 sm:px-8 md:px-12 lg:px-18 py-5">
