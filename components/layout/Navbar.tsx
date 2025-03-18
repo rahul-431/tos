@@ -21,7 +21,6 @@ const Navbar = () => {
           height={100}
           width={100}
           className="object-contain w-full h-full rounded-b-2xl"
-          priority
         />
       </Link>
 
