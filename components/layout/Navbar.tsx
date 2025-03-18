@@ -13,8 +13,11 @@ import { navList } from "@/constants";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-4 sm:px-8 md:px-12 lg:px-20 bg-white">
-      <Link className="w-16 h-16 sm:w-20 sm:h-20 " href="/">
+    <div
+      id="home"
+      className="sticky top-0 z-50 flex justify-between items-center px-4 sm:px-8 md:px-12 lg:px-20 bg-white"
+    >
+      <Link className="w-16 h-16 sm:w-20 sm:h-20 " href="#home">
         <Image
           src="/logo.png"
           alt=""

@@ -3,7 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-14 lg:gap-20  px-4 sm:px-8 md:px-12 lg:px-20 py-8">
+    <div
+      id="about"
+      className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-14 lg:gap-20  px-4 sm:px-8 md:px-12 lg:px-20 pt-20 pb-8"
+    >
       {/* image section */}
       <div className="w-full">
         <Image

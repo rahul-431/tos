@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 
 const Connect = () => {
   return (
-    <div className="px-4 sm:px-8 md:px-12 lg:px-20 py-12">
+    <div id="connect" className="px-4 sm:px-8 md:px-12 lg:px-20 pt-20 pb-12">
       {/* title section */}
       <div className="flex flex-col gap-3 items-center justify-center">
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-semibold w-fit text-center mx-auto">

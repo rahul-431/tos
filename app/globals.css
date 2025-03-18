@@ -71,7 +71,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

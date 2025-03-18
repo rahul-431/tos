@@ -3,7 +3,10 @@ import ProductCard from "../shared/ProductCard";
 
 const Products = () => {
   return (
-    <div className="flex flex-col gap-5 px-4 sm:px-8 md:px-12 lg:px-28 py-14">
+    <div
+      id="products"
+      className="flex flex-col gap-5 px-4 sm:px-8 md:px-12 lg:px-28 pt-20 pb-14"
+    >
       <div className="flex flex-col gap-3 items-center justify-center font-semibold">
         <h1 className="text-3xl sm:text-5xl lg:text-6xl">
           Our <span className="font-extrabold textBg w-fit">Products</span>
