@@ -8,7 +8,6 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import { HeroData } from "@/constants";
-import Topbar from "../layout/Topbar";
 import Link from "next/link";
 import Image from "next/image";
 
