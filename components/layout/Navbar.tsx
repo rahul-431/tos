@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
 
         <Link
-          href="/"
+          href="/digital"
           className="text-black font-semibold py-1.5 md:py-2 px-4 sm:px-8 rounded-full digital"
         >
           Digital Brochure

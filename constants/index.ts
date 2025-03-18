@@ -112,13 +112,13 @@ export const productList: ProductCardType[] = [
     title: "Sunglasses",
   },
   {
-    id: 1,
+    id: 6,
     image:
       "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Polarized Lens",
   },
   {
-    id: 2,
+    id: 7,
     image:
       "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Blue Light Glasses",

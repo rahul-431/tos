@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const ProductCard = ({ image, title, id }: ProductCardType) => {
-  console.log(id);
+  const router = useRouter();
   return (
     <div className="flex flex-col gap-4">
       <div className="flex relative w-full sm:w-64 h-80">
@@ -19,7 +21,10 @@ const ProductCard = ({ image, title, id }: ProductCardType) => {
           {title}
         </p>
       </div>
-      <button className="digital cursor-pointer text-black font-bold py-1.5 md:py-2 px-4 sm:px-8 rounded-full w-full sm:w-64">
+      <button
+        onClick={() => router.push(`/digital/${id}`)}
+        className="digital cursor-pointer text-black font-bold py-1.5 md:py-2 px-4 sm:px-8 rounded-full w-full sm:w-64"
+      >
         Discover
       </button>
     </div>

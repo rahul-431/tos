@@ -45,8 +45,8 @@ export function HeroSection() {
         />
       </Link>
       <Link
-        href="/"
-        className="absolute z-40 right-4 sm:right-8 md:right-12 lg:right-20 top-1 md:top-4 text-black font-semibold py-0.5 sm:py-1.5 md:py-2 px-2 md:px-4 sm:px-8 rounded-lg md:rounded-full digital text-xs sm:text-sm md:text-base"
+        href="/digital"
+        className="absolute z-40 right-4 sm:right-8 md:right-12 lg:right-20 top-1 md:top-4 text-black font-semibold py-0.5 sm:py-1.5 md:py-2 px-2 md:px-4 sm:px-8 rounded-full digital text-xs sm:text-sm md:text-base"
       >
         Digital Brochure
       </Link>
@@ -70,7 +70,6 @@ export function HeroSection() {
         </CarouselContent>
         <div className="absolute text-red-600 flex gap-2 bottom-5 left-[35%] sm:left-[42.5%]">
           {Array.from({ length: count }).map((_, index) => {
-            console.log(index, current);
             return (
               <div
                 key={index}

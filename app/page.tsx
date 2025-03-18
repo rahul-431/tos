@@ -1,4 +1,5 @@
 "use client";
+import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import About from "@/components/others/About";
 import Bifocals from "@/components/others/Bifocals";
@@ -58,6 +59,7 @@ const App = () => {
       <Bifocals />
       <NearBy />
       <Connect />
+      <Footer />
     </div>
   );
 };
