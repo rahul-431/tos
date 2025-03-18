@@ -8,12 +8,12 @@ const FeatureCard = ({ title, text, image, color }: FeatureCardType) => {
       <Image
         src={image}
         alt="card image"
-        height={50}
-        width={50}
+        height={48}
+        width={48}
         objectFit="contain"
       />
-      <h1 className="text-xl font-bold">{title}</h1>
-      <h1 className="text-lg font-medium">{text}</h1>
+      <h1 className="text-lg md:text-xl font-bold text-center">{title}</h1>
+      <h1 className="text-base md:text-lg font-medium text-center">{text}</h1>
     </div>
   );
 };

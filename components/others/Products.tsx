@@ -1,7 +1,18 @@
+"use client";
 import { productList } from "@/constants";
 import ProductCard from "../shared/ProductCard";
+import Autoplay from "embla-carousel-autoplay";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { useRef } from "react";
 
 const Products = () => {
+  const plugin = useRef(Autoplay({ delay: 1500 }));
   return (
     <div
       id="products"
@@ -13,21 +24,30 @@ const Products = () => {
         </h1>
       </div>
       <h2 className="font-extrabold text-2xl text-center">Single Vision</h2>
-      <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-8 justify-center items-center py-2">
-        {productList.map((item, index) => (
-          <ProductCard
-            key={index}
-            id={item.id}
-            image={item.image}
-            title={item.title}
-          />
-        ))}
-      </div>
-      <div className="flex justify-end text-lg">
-        <button className="font-semibold underline underline-offset-4 cursor-pointer">
-          View All Products
-        </button>
-      </div>
+      <Carousel
+        plugins={[plugin.current]}
+        // onMouseEnter={plugin.current.stop}
+        // onMouseLeave={plugin.current.reset}
+        className="w-full relative mb-4 sm:mb-0"
+      >
+        <CarouselContent>
+          {productList.map((item, index) => (
+            <CarouselItem
+              key={index}
+              className=" sm:basis-1/2 md:basis-1/3 lg:basis-1/4 gap-2"
+            >
+              <ProductCard
+                key={index}
+                id={item.id}
+                image={item.image}
+                title={item.title}
+              />
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious className="absolute -left-2 sm:-left-6 md:-left-10 lg:-left-10 h-8 w-8 text-[#03305A]  hover:text-white hover:bg-[#03305A] border border-[#03305A]" />
+        <CarouselNext className="absolute -right-2 sm:right-0 md:-right-5 lg:-right-8 h-8 w-8  text-[#03305A]  hover:text-white hover:bg-[#03305A] border border-[#03305A]" />
+      </Carousel>
     </div>
   );
 };
