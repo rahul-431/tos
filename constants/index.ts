@@ -130,3 +130,18 @@ export const storeList: StoreCardType[] = [
     contact: "9865410898",
   },
 ];
+
+export const HeroData = [
+  {
+    image: "https://magnuslens.com/images/banner-img-2.jpg",
+  },
+  {
+    image: "https://magnuslens.com/images/banner-img-1.jpg",
+  },
+  {
+    image: "https://magnuslens.com/images/banner-img-3.jpg",
+  },
+  {
+    image: "https://magnuslens.com/images/banner-img-4.jpg",
+  },
+];

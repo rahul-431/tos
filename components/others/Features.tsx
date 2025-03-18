@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div
       id="features"
-      className="px-4 sm:px-8 md:px-12 lg:px-20 pt-20 pb-12 bg-gray-100"
+      className="px-4 sm:px-8 md:px-12 lg:px-20 pt-16 md:pt-20 pb-12 bg-gray-100"
     >
       <h1 className="text-3xl sm:text-5xl lg:text-6xl font-semibold w-fit text-center mx-auto">
         Features of <span className="textBg font-extrabold">Magnus</span> Lens

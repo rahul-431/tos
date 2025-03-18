@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-14 lg:gap-20  px-4 sm:px-8 md:px-12 lg:px-20 pt-20 pb-8"
+      className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-14 lg:gap-20  px-4 sm:px-8 md:px-12 lg:px-20 pt-12 md:pt-20 pb-8"
     >
       {/* image section */}
       <div className="w-full">
