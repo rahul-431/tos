@@ -35,7 +35,7 @@ const Connect = () => {
               <span className="font-bold">CONTACT</span> INFO
             </h1>
             <p className="text-justify text-base font-medium">
-              For inquiries, support, or feedback, please don't hesitate to
+              For inquiries, support, or feedback, please dont hesitate to
               contact us. Our customer service team is available to ensure your
               complete satisfaction with our products and services.
             </p>
