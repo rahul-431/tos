@@ -29,7 +29,7 @@ const NearBy = () => {
           className="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-2xl shadow-lg"
           title="Map showing our location"
           aria-label="Map of our location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4206.777660175356!2d87.14940915450742!3d26.609492589089264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef123b6c15db5d%3A0x8c9cae14fd19a5fb!2sJanak%20Smriti%20Secondary%20School!5e0!3m2!1sen!2snp!4v1740983035192!5m2!1sen!2snp"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.5710822544474!2d85.31157307387336!3d27.69380997619033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1900131ced9b%3A0xa0a9a1c0983262d5!2sTripureshwor%20Chowk!5e1!3m2!1sen!2snp!4v1742374935258!5m2!1sen!2snp"
           allowFullScreen
         ></iframe>
       </div>

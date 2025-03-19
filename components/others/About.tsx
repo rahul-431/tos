@@ -26,7 +26,7 @@ const About = () => {
             Why Choose
           </h2>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold textBg w-fit">
-            Magnus Lens?
+            TOS Lens?
           </h1>
         </div>
         <div className="flex flex-col gap-8 text-base sm:text-lg font-medium">
