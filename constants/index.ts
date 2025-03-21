@@ -145,9 +145,6 @@ export const storeList: StoreCardType[] = [
 
 export const HeroData = [
   {
-    image: "https://magnuslens.com/images/banner-img-2.jpg",
-  },
-  {
     image: "https://magnuslens.com/images/banner-img-1.jpg",
   },
   {
@@ -155,5 +152,20 @@ export const HeroData = [
   },
   {
     image: "https://magnuslens.com/images/banner-img-4.jpg",
+  },
+  {
+    image: "https://magnuslens.com/images/banner-img-2.jpg",
+  },
+  {
+    image:
+      "https://s5ronyp76h.ufs.sh/f/qNnxVbCeM2bayI0U4ENc9UJHjfxRETsW3o5MqYV8l0dCeanL",
+  },
+  {
+    image:
+      "https://s5ronyp76h.ufs.sh/f/qNnxVbCeM2ba1ym2r3Bho3IuUDtNOczTsbdHf1kAQPiGyKxv",
+  },
+  {
+    image:
+      "https://s5ronyp76h.ufs.sh/f/qNnxVbCeM2baDI2SEZbolRXw34dEpGQTyhtvsb5Dnfi9grJo",
   },
 ];

@@ -38,7 +38,7 @@ const Page = () => {
       </div>
       <div
         style={{ backgroundImage: `url(${bgImage})` }}
-        className="h-[750px] md:h-[800px] w-full bg-center bg-cover bg-no-repeat rounded-md"
+        className="h-full md:h-[800px] w-full bg-center bg-cover bg-no-repeat rounded-md"
       />
     </div>
   );

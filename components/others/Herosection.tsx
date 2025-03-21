@@ -31,7 +31,6 @@ export function HeroSection() {
   const plugin = React.useRef(Autoplay({ delay: 4000, jump: true }));
   return (
     <div className="relative">
-      {/* <div className="absolute top-5 flex justify-between items-center px-4 sm:px-8 md:px-12 lg:px-20"> */}
       <Link
         className="absolute z-40 bg-white left-4 sm:left-8 md:left-12 lg:left-20 top-0 w-12 h-8 sm:w-20 sm:h-12 lg:w-40 lg:h-20 rounded-b-md md:rounded-b-2xl "
         href="#home"
@@ -50,7 +49,6 @@ export function HeroSection() {
       >
         Digital Brochure
       </Link>
-      {/* </div> */}
       <Carousel
         id="home"
         setApi={setApi}
@@ -59,13 +57,15 @@ export function HeroSection() {
       >
         <CarouselContent>
           {HeroData.map((item, index) => (
-            <CarouselItem
-              key={index}
-              style={{
-                backgroundImage: `url('${item.image}')`,
-              }}
-              className=" h-[200px] sm:h-[350px] md:h-[700px] w-full bg-center bg-cover bg-no-repeat"
-            ></CarouselItem>
+            <CarouselItem key={index} className="w-full h-full">
+              <div className="h-[400px] sm:h-[100vh] w-[100vw]">
+                <img
+                  src={item.image}
+                  alt="image"
+                  className="w-full h-full"
+                ></img>
+              </div>
+            </CarouselItem>
           ))}
         </CarouselContent>
         <div className="absolute text-red-600 flex gap-2 bottom-5 left-[35%] sm:left-[42.5%]">
